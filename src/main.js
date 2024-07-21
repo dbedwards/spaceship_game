@@ -23,7 +23,7 @@ function begin() {
     let last = 0;
     const renderer = new CanvasRenderer(w, h);
     renderer.view.style.backgroundColor = "#000000"
-    document.getElementById("body").appendChild(renderer.view);
+    document.getElementById("canvas").appendChild(renderer.view);
     
     //make game objects
     const scene = new Container();
